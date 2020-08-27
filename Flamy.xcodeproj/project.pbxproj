@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		427B586B24F7897C00487B40 /* HomeBottomControlStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427B586A24F7897C00487B40 /* HomeBottomControlStackView.swift */; };
+		427B586D24F79AFC00487B40 /* TopNavigaitonStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427B586C24F79AFC00487B40 /* TopNavigaitonStackView.swift */; };
+		427B586F24F7B9F700487B40 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427B586E24F7B9F700487B40 /* CardView.swift */; };
 		428551EB24CE0E860041102F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428551EA24CE0E860041102F /* AppDelegate.swift */; };
 		428551ED24CE0E860041102F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428551EC24CE0E860041102F /* ViewController.swift */; };
 		428551F024CE0E860041102F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428551EE24CE0E860041102F /* Main.storyboard */; };
 		428551F224CE0E880041102F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 428551F124CE0E880041102F /* Assets.xcassets */; };
 		428551F524CE0E880041102F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428551F324CE0E880041102F /* LaunchScreen.storyboard */; };
+		42BFB46E24F6F4F000A4B1EF /* ConfigureAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BFB46D24F6F4F000A4B1EF /* ConfigureAutoLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		427B586A24F7897C00487B40 /* HomeBottomControlStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBottomControlStackView.swift; sourceTree = "<group>"; };
+		427B586C24F79AFC00487B40 /* TopNavigaitonStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigaitonStackView.swift; sourceTree = "<group>"; };
+		427B586E24F7B9F700487B40 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		428551E724CE0E860041102F /* Flamy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flamy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		428551EA24CE0E860041102F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		428551EC24CE0E860041102F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,7 @@
 		428551F124CE0E880041102F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		428551F424CE0E880041102F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		428551F624CE0E880041102F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42BFB46D24F6F4F000A4B1EF /* ConfigureAutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureAutoLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		427B586924F7895800487B40 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				427B586A24F7897C00487B40 /* HomeBottomControlStackView.swift */,
+				427B586C24F79AFC00487B40 /* TopNavigaitonStackView.swift */,
+				427B586E24F7B9F700487B40 /* CardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		428551DE24CE0E860041102F = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +72,8 @@
 		428551E924CE0E860041102F /* Flamy */ = {
 			isa = PBXGroup;
 			children = (
+				427B586924F7895800487B40 /* Views */,
+				42BFB46C24F6F4A200A4B1EF /* Extensions */,
 				428551EA24CE0E860041102F /* AppDelegate.swift */,
 				428551EC24CE0E860041102F /* ViewController.swift */,
 				428551EE24CE0E860041102F /* Main.storyboard */,
@@ -62,6 +82,14 @@
 				428551F624CE0E880041102F /* Info.plist */,
 			);
 			path = Flamy;
+			sourceTree = "<group>";
+		};
+		42BFB46C24F6F4A200A4B1EF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				42BFB46D24F6F4F000A4B1EF /* ConfigureAutoLayout.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42BFB46E24F6F4F000A4B1EF /* ConfigureAutoLayout.swift in Sources */,
 				428551ED24CE0E860041102F /* ViewController.swift in Sources */,
+				427B586B24F7897C00487B40 /* HomeBottomControlStackView.swift in Sources */,
+				427B586D24F79AFC00487B40 /* TopNavigaitonStackView.swift in Sources */,
+				427B586F24F7B9F700487B40 /* CardView.swift in Sources */,
 				428551EB24CE0E860041102F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
