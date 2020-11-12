@@ -3,33 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4227C70425051A32001D6665 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227C70325051A32001D6665 /* SettingsController.swift */; };
+		4239C5EE24FA77C0001A78A7 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4239C5ED24FA77C0001A78A7 /* CardViewModel.swift */; };
+		42506C91250675F100050E0D /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42506C90250675F100050E0D /* SettingsCell.swift */; };
+		4263A68024F96112008DADF4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4263A67F24F96112008DADF4 /* User.swift */; };
 		427B586B24F7897C00487B40 /* HomeBottomControlStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427B586A24F7897C00487B40 /* HomeBottomControlStackView.swift */; };
 		427B586D24F79AFC00487B40 /* TopNavigaitonStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427B586C24F79AFC00487B40 /* TopNavigaitonStackView.swift */; };
 		427B586F24F7B9F700487B40 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427B586E24F7B9F700487B40 /* CardView.swift */; };
+		4283052424FAA2680028D778 /* Advertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4283052324FAA2680028D778 /* Advertiser.swift */; };
 		428551EB24CE0E860041102F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428551EA24CE0E860041102F /* AppDelegate.swift */; };
-		428551ED24CE0E860041102F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428551EC24CE0E860041102F /* ViewController.swift */; };
+		428551ED24CE0E860041102F /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428551EC24CE0E860041102F /* HomeController.swift */; };
 		428551F024CE0E860041102F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428551EE24CE0E860041102F /* Main.storyboard */; };
 		428551F224CE0E880041102F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 428551F124CE0E880041102F /* Assets.xcassets */; };
 		428551F524CE0E880041102F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428551F324CE0E880041102F /* LaunchScreen.storyboard */; };
+		4294F1D72501850E00FFB02A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4294F1D62501850E00FFB02A /* GoogleService-Info.plist */; };
+		42B359232508E66800712A83 /* AgeRangeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B359222508E66800712A83 /* AgeRangeCell.swift */; };
 		42BFB46E24F6F4F000A4B1EF /* ConfigureAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BFB46D24F6F4F000A4B1EF /* ConfigureAutoLayout.swift */; };
+		42C91BD22500EFE9006F6F07 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C91BD12500EFE9006F6F07 /* RegistrationViewModel.swift */; };
+		42F56D542502DD7C0072B429 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F56D532502DD7C0072B429 /* Bindable.swift */; };
+		42F6DC1B24FE7D3800642CB7 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F6DC1A24FE7D3800642CB7 /* RegistrationController.swift */; };
+		96DBF28725938DB2929B9C07 /* Pods_Flamy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCACCA5DDA7F796DB02BB573 /* Pods_Flamy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4227C70325051A32001D6665 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		4239C5ED24FA77C0001A78A7 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		42506C90250675F100050E0D /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		4263A67F24F96112008DADF4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		427B586A24F7897C00487B40 /* HomeBottomControlStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBottomControlStackView.swift; sourceTree = "<group>"; };
 		427B586C24F79AFC00487B40 /* TopNavigaitonStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigaitonStackView.swift; sourceTree = "<group>"; };
 		427B586E24F7B9F700487B40 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		4283052324FAA2680028D778 /* Advertiser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advertiser.swift; sourceTree = "<group>"; };
 		428551E724CE0E860041102F /* Flamy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flamy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		428551EA24CE0E860041102F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		428551EC24CE0E860041102F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		428551EC24CE0E860041102F /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		428551EF24CE0E860041102F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		428551F124CE0E880041102F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		428551F424CE0E880041102F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		428551F624CE0E880041102F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4294F1D62501850E00FFB02A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		42B359222508E66800712A83 /* AgeRangeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeRangeCell.swift; sourceTree = "<group>"; };
 		42BFB46D24F6F4F000A4B1EF /* ConfigureAutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureAutoLayout.swift; sourceTree = "<group>"; };
+		42C91BD12500EFE9006F6F07 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		42F56D532502DD7C0072B429 /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		42F6DC1A24FE7D3800642CB7 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		65624A39072AB01A87660B46 /* Pods-Flamy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flamy.debug.xcconfig"; path = "Target Support Files/Pods-Flamy/Pods-Flamy.debug.xcconfig"; sourceTree = "<group>"; };
+		CCACCA5DDA7F796DB02BB573 /* Pods_Flamy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flamy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D33DAFF810AE9DE8343724 /* Pods-Flamy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flamy.release.xcconfig"; path = "Target Support Files/Pods-Flamy/Pods-Flamy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,18 +61,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96DBF28725938DB2929B9C07 /* Pods_Flamy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BA065AEF0A69E10052F947F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCACCA5DDA7F796DB02BB573 /* Pods_Flamy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4239C5EB24FA76F6001A78A7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				428551EC24CE0E860041102F /* HomeController.swift */,
+				4227C70325051A32001D6665 /* SettingsController.swift */,
+				42506C90250675F100050E0D /* SettingsCell.swift */,
+				42F6DC1A24FE7D3800642CB7 /* RegistrationController.swift */,
+				42F56D532502DD7C0072B429 /* Bindable.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4239C5EC24FA77AC001A78A7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4239C5ED24FA77C0001A78A7 /* CardViewModel.swift */,
+				42C91BD12500EFE9006F6F07 /* RegistrationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4263A68124F9611E008DADF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4263A67F24F96112008DADF4 /* User.swift */,
+				4283052324FAA2680028D778 /* Advertiser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		427B586924F7895800487B40 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				427B586A24F7897C00487B40 /* HomeBottomControlStackView.swift */,
 				427B586C24F79AFC00487B40 /* TopNavigaitonStackView.swift */,
 				427B586E24F7B9F700487B40 /* CardView.swift */,
+				42B359222508E66800712A83 /* AgeRangeCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -58,6 +122,8 @@
 			children = (
 				428551E924CE0E860041102F /* Flamy */,
 				428551E824CE0E860041102F /* Products */,
+				77552492DAFBDDA0E7AB625B /* Pods */,
+				1BA065AEF0A69E10052F947F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,13 +138,16 @@
 		428551E924CE0E860041102F /* Flamy */ = {
 			isa = PBXGroup;
 			children = (
+				4263A68124F9611E008DADF4 /* Model */,
+				4239C5EC24FA77AC001A78A7 /* ViewModels */,
+				4239C5EB24FA76F6001A78A7 /* Controller */,
 				427B586924F7895800487B40 /* Views */,
 				42BFB46C24F6F4A200A4B1EF /* Extensions */,
 				428551EA24CE0E860041102F /* AppDelegate.swift */,
-				428551EC24CE0E860041102F /* ViewController.swift */,
 				428551EE24CE0E860041102F /* Main.storyboard */,
 				428551F124CE0E880041102F /* Assets.xcassets */,
 				428551F324CE0E880041102F /* LaunchScreen.storyboard */,
+				4294F1D62501850E00FFB02A /* GoogleService-Info.plist */,
 				428551F624CE0E880041102F /* Info.plist */,
 			);
 			path = Flamy;
@@ -92,6 +161,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		77552492DAFBDDA0E7AB625B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65624A39072AB01A87660B46 /* Pods-Flamy.debug.xcconfig */,
+				F9D33DAFF810AE9DE8343724 /* Pods-Flamy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 428551F924CE0E880041102F /* Build configuration list for PBXNativeTarget "Flamy" */;
 			buildPhases = (
+				5AF8736E77C2AD1926BF69DC /* [CP] Check Pods Manifest.lock */,
 				428551E324CE0E860041102F /* Sources */,
 				428551E424CE0E860041102F /* Frameworks */,
 				428551E524CE0E860041102F /* Resources */,
+				083C10B62EF9C6A7AE9FD619 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				428551F524CE0E880041102F /* LaunchScreen.storyboard in Resources */,
+				4294F1D72501850E00FFB02A /* GoogleService-Info.plist in Resources */,
 				428551F224CE0E880041102F /* Assets.xcassets in Resources */,
 				428551F024CE0E860041102F /* Main.storyboard in Resources */,
 			);
@@ -158,17 +239,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		083C10B62EF9C6A7AE9FD619 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flamy/Pods-Flamy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flamy/Pods-Flamy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flamy/Pods-Flamy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AF8736E77C2AD1926BF69DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flamy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		428551E324CE0E860041102F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42B359232508E66800712A83 /* AgeRangeCell.swift in Sources */,
+				42506C91250675F100050E0D /* SettingsCell.swift in Sources */,
 				42BFB46E24F6F4F000A4B1EF /* ConfigureAutoLayout.swift in Sources */,
-				428551ED24CE0E860041102F /* ViewController.swift in Sources */,
+				4227C70425051A32001D6665 /* SettingsController.swift in Sources */,
+				42C91BD22500EFE9006F6F07 /* RegistrationViewModel.swift in Sources */,
+				42F56D542502DD7C0072B429 /* Bindable.swift in Sources */,
+				428551ED24CE0E860041102F /* HomeController.swift in Sources */,
+				4283052424FAA2680028D778 /* Advertiser.swift in Sources */,
 				427B586B24F7897C00487B40 /* HomeBottomControlStackView.swift in Sources */,
 				427B586D24F79AFC00487B40 /* TopNavigaitonStackView.swift in Sources */,
+				4239C5EE24FA77C0001A78A7 /* CardViewModel.swift in Sources */,
 				427B586F24F7B9F700487B40 /* CardView.swift in Sources */,
 				428551EB24CE0E860041102F /* AppDelegate.swift in Sources */,
+				4263A68024F96112008DADF4 /* User.swift in Sources */,
+				42F6DC1B24FE7D3800642CB7 /* RegistrationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +435,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -312,6 +445,7 @@
 		};
 		428551FA24CE0E880041102F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65624A39072AB01A87660B46 /* Pods-Flamy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -330,6 +464,7 @@
 		};
 		428551FB24CE0E880041102F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9D33DAFF810AE9DE8343724 /* Pods-Flamy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
